@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.92'
+generated_by: 'Module::Install version 0.93'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,11 +18,13 @@ no_index:
   directory:
     - inc
     - t
+    - xt
 recommends:
   YAML::XS: 0
 requires:
+  App::cpanminus: 0
   YAML: 0
   local::lib: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.00002
+version: 0.00003

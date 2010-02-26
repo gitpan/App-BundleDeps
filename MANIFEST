@@ -1,5 +1,6 @@
 Changes
 inc/Module/Install.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -15,3 +16,7 @@ MANIFEST			This list of files
 META.yml
 script/bundledeps
 t/000_load.t
+xt/App/BundleDeps/Test.pm
+xt/dbix-class.t
+xt/mojomojo.t
+xt/moose.t
