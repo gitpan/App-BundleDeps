@@ -22,9 +22,9 @@ no_index:
 recommends:
   YAML::XS: 0
 requires:
-  App::cpanminus: 1.00
+  App::cpanminus: 0.9910
   YAML: 0
   local::lib: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.00004
+version: 0.00005
